@@ -44,7 +44,7 @@ function test(resp) {
         $('.12').removeClass('dnone');
     } else if (i2 === 12) {
         $('.12').addClass('dnone');
-        $('.resultado').html('A média é: ' + parseFloat(i / 12 * 100).toFixed(1) + '%');
+        $('.resultado').html('A média dos artefatos é: ' + parseFloat(i / 12 * 100).toFixed(1) + '%');
         $('.resultado').removeClass('dnone');
     }
 
